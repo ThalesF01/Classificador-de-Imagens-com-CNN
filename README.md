@@ -1,6 +1,6 @@
 # Classificação de Imagens CIFAR-10 com CNN
 
-Este projeto implementa uma **Rede Neural Convolucional (CNN)** para classificação de imagens do dataset CIFAR-10, alcançando **86% de acurácia** no conjunto de teste. O sistema utiliza técnicas modernas de deep learning incluindo BatchNormalization, Dropout, callbacks avançados e visualizações detalhadas de performance.
+Este projeto implementa uma **Rede Neural Convolucional (CNN)** para classificação de imagens do dataset CIFAR-10, alcançando **86% de acurácia** no conjunto de teste. O sistema utiliza técnicas modernas de deep learning incluindo BatchNormalization, Dropout, regularização L2, callbacks avançados, Data Augmentation e visualizações detalhadas de performance.
 
 ## 🎯 Objetivo
 
@@ -22,6 +22,7 @@ Desenvolver um classificador robusto capaz de identificar 10 classes diferentes 
 ### Técnicas Avançadas
 - **BatchNormalization** - Estabilização do treinamento
 - **Dropout** - Prevenção de overfitting
+- **Regularização L2** - Penaliza pesos grandes para evitar overfitting
 - **Data Augmentation** - Aumento artificial do dataset
 - **Callbacks** - Monitoramento e controle do treinamento
 
