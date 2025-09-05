@@ -1,6 +1,6 @@
 # Classificação de Imagens CIFAR-10 com CNN
 
-Este projeto implementa uma **Rede Neural Convolucional (CNN)** para classificação de imagens do dataset CIFAR-10, alcançando **84% de acurácia** no conjunto de teste. O sistema utiliza técnicas modernas de deep learning incluindo BatchNormalization, Dropout, callbacks avançados e visualizações detalhadas de performance.
+Este projeto implementa uma **Rede Neural Convolucional (CNN)** para classificação de imagens do dataset CIFAR-10, alcançando **86% de acurácia** no conjunto de teste. O sistema utiliza técnicas modernas de deep learning incluindo BatchNormalization, Dropout, callbacks avançados e visualizações detalhadas de performance.
 
 ## 🎯 Objetivo
 
@@ -248,36 +248,36 @@ visualize_predictions(x_test, y_true, y_pred, class_names)
 ## 📈 Resultados Alcançados
 
 ### Performance Geral
-- **Acurácia no teste: 84.06%**
-- **Loss final: 0.5465**
-- **Treinamento: 56 épocas** (parada antecipada)
+- **Acurácia no teste: 86.27%**
+- **Loss final: 0.4339**
+- **Treinamento: 64 épocas** (parada antecipada)
 
 ### Performance por Classe
 
 | Classe | Precisão | Recall | F1-Score | Amostras |
 |--------|----------|--------|----------|-----------|
-| **Avião** | 0.83 | 0.85 | 0.84 | 1000 |
-| **Carro** | 0.95 | 0.91 | 0.93 | 1000 |
-| **Pássaro** | 0.86 | 0.69 | 0.77 | 1000 |
-| **Gato** | 0.73 | 0.65 | 0.69 | 1000 |
-| **Cervo** | 0.82 | 0.82 | 0.82 | 1000 |
-| **Cachorro** | 0.74 | 0.81 | 0.77 | 1000 |
-| **Sapo** | 0.79 | 0.93 | 0.86 | 1000 |
-| **Cavalo** | 0.87 | 0.88 | 0.87 | 1000 |
-| **Navio** | 0.90 | 0.90 | 0.90 | 1000 |
-| **Caminhão** | 0.87 | 0.93 | 0.90 | 1000 |
+| **Avião** | 0.89 | 0.86 | 0.88 | 1000 |
+| **Carro** | 0.93 | 0.94 | 0.93 | 1000 |
+| **Pássaro** | 0.89 | 0.74 | 0.81 | 1000 |
+| **Gato** | 0.75 | 0.75 | 0.75 | 1000 |
+| **Cervo** | 0.82 | 0.88 | 0.85 | 1000 |
+| **Cachorro** | 0.87 | 0.73 | 0.79 | 1000 |
+| **Sapo** | 0.82 | 0.94 | 0.88 | 1000 |
+| **Cavalo** | 0.88 | 0.91 | 0.90 | 1000 |
+| **Navio** | 0.93 | 0.92 | 0.93 | 1000 |
+| **Caminhão** | 0.87 | 0.95 | 0.91 | 1000 |
 
 ### Análise dos Resultados
 
 **Classes com melhor performance:**
 - **Carro (93% F1)**: Características distintivas claras (rodas, formato)
-- **Navio (90% F1)**: Contexto aquático facilita identificação
-- **Caminhão (90% F1)**: Tamanho e formato únicos
+- **Navio (93% F1)**: Contexto aquático facilita identificação
+- **Caminhão (91% F1)**: Tamanho e formato únicos
 
 **Classes mais desafiadoras:**
-- **Gato (69% F1)**: Confusão com cão devido à similaridade
-- **Pássaro (77% F1)**: Grande variação de espécies e poses
-- **Cachorro (77% F1)**: Sobreposição com gato em algumas poses
+- **Gato (75% F1)**: Confusão com cão devido à similaridade
+- **Pássaro (81% F1)**: Grande variação de espécies e poses
+- **Cachorro (79% F1)**: Sobreposição com gato em algumas poses
 
 ## 🎨 Aplicações Práticas
 
@@ -355,12 +355,10 @@ Este projeto demonstra não apenas conhecimento teórico, mas **implementação 
 - **Visualizações profissionais** 
 - **Código production-ready**
   
-<img width="780" height="620" alt="{843AC29A-6ACE-4C84-A704-7D0A161BAA21}" src="https://github.com/user-attachments/assets/f2711b3f-1f64-4782-afc5-463ef5851515" />
+<img width="783" height="625" alt="{28288C22-8D36-4B86-B8A4-CC174C8A04A7}" src="https://github.com/user-attachments/assets/7be7cf35-8ed6-46ee-8bb8-ba754f7cea40" />
 
-<img width="1161" height="462" alt="{A8CA76B2-03C1-4C40-8EF2-6D08447B2FA5}" src="https://github.com/user-attachments/assets/a24747b2-37a2-4469-b176-cdb58d21a5a6" />
+<img width="1148" height="470" alt="{2FB59818-EBDC-42E1-A259-9A3493AB0009}" src="https://github.com/user-attachments/assets/a3081860-b4dc-408d-9a64-8d4ac2d5c1a3" />
 
-<img width="779" height="801" alt="{09822EFD-0F27-4406-89D4-8FD1F24F6CC2}" src="https://github.com/user-attachments/assets/1846f9d3-7aa1-4597-ac4c-44948182418e" />
-
-
+<img width="782" height="798" alt="{800484F3-7455-4D18-85F4-E92D9E604AA2}" src="https://github.com/user-attachments/assets/f8697e10-bc89-49e9-ad13-eeaed527a58e" />
 
 ---
